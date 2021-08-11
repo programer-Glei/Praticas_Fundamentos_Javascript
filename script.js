@@ -12,3 +12,12 @@ document.getElementsByTagName("")
 
 //seleiona todos os elementos pelo atributo name, mais ultilizado em campos de texto
 document.getElementsByName("")
+
+//função para subir o Scroll
+
+function subirTela(){
+    window.scrollTo({
+        top:0,
+        behavior: 'smooth'
+    })
+}
