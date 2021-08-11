@@ -36,3 +36,10 @@ function decidirBotaoScroll(){
 
 // adiciona um evento que vai monitorar o scroll da janela
 window.addEventListener('scroll', decidirBotaoScroll);
+
+// função clicou
+
+function clicou(){
+    alert("Você clicou no botão")
+    document.getElementById("titulo").innerHTML = "obrigado!!"
+}
