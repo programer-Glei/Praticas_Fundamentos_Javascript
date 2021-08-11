@@ -21,3 +21,12 @@ function subirTela(){
         behavior: 'smooth'
     })
 }
+
+//função para ocultar botão
+
+function decidirBotaoScroll(){
+    if(window.scrollY === 0){
+        // ocultar o botão
+        
+    }
+}
