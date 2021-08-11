@@ -33,3 +33,6 @@ function decidirBotaoScroll(){
         //document.querySelector('.scrollbutton').style.display = 'block'
     }
 }
+
+// adiciona um evento que vai monitorar o scroll da janela
+window.addEventListener('scroll', decidirBotaoScroll);
