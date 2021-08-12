@@ -49,7 +49,7 @@ function clicou(){
 let carros = ['Palio','Gol','Corolla','Ferrari']
 
 // não muito usado hoje em dia
-let carros = new Array('Pali','Uno','Corolla')
+//let carros = new Array('Pali','Uno','Corolla')
 
 // declaração de objetos
 
@@ -63,13 +63,14 @@ let carro = {
 }
 
 // função abrir menu
+
 function abrir(){
     let menu = document.getElementById("menu-area").style.width
     console.log(menu)
 
     if(menu == 0){
         document.getElementById("menu-area").style.width = "200px"
-    }else{
+    }else if(menu == 200){
         document.getElementById("menu-area").style.width = "0"
     }
 }
