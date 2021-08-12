@@ -64,14 +64,13 @@ let carro = {
 
 // função abrir menu
 
-let menu = document.getElementById("menu-area").style.width
-
 function abrir(){
+    let menu = document.getElementById("menu-area")
     console.log(menu)
-    if(menu == "0px" || menu == 0){
-        document.getElementById("menu-area").style.width = '200px'
-    } else if(menu == "200px" || menu == 200){
+    if(menu.style.width == '200px'){
+       menu.style.width = '0px'
+    } else{
         console.log("cheguei aqui")
-        document.getElementById("menu-area").style.width = 0
+        menu.style.width = '200px'
     }
 }
