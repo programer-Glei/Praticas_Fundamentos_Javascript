@@ -48,4 +48,16 @@ function clicou(){
 
 let carros = ['Palio','Gol','Corolla','Ferrari']
 
+// não muito usado hoje em dia
 let carros = new Array('Pali','Uno','Corolla')
+
+// declaração de objetos
+
+let carro = {
+    nome: 'Fiat',
+    modelo: 'Uno',
+    peso: '800kg',
+    ligar: function(){
+        console.log("VRUM VRUM")
+    }
+}
