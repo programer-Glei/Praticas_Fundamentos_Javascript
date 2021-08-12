@@ -61,3 +61,8 @@ let carro = {
         console.log("VRUM VRUM")
     }
 }
+
+// função abrir menu
+function abrir(){
+    
+}
