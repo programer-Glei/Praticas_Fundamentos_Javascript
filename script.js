@@ -43,3 +43,9 @@ function clicou(){
     alert("Você clicou no botão")
     document.getElementById("titulo").innerHTML = "obrigado!!"
 }
+
+// declaração de arrays
+
+let carros = ['Palio','Gol','Corolla','Ferrari']
+
+let carros = new Array('Pali','Uno','Corolla')
