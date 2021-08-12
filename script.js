@@ -64,5 +64,12 @@ let carro = {
 
 // função abrir menu
 function abrir(){
-    
+    let menu = document.getElementById("menu-area").style.width
+    console.log(menu)
+
+    if(menu == 0){
+        document.getElementById("menu-area").style.width = "200px"
+    }else{
+        document.getElementById("menu-area").style.width = "0"
+    }
 }
