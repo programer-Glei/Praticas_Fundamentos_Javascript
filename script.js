@@ -110,6 +110,8 @@ switch (dia) {
 
 let texto = ''
 
-for(){
-
+for(let i = 0; i < 50; i++) {
+    texto += i
 }
+
+document.querySelector(".demo").innerHTML = texto
