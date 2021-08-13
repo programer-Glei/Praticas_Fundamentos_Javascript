@@ -119,7 +119,7 @@ document.querySelector(".demo").innerHTML = texto
 
 //FOR arrays
 
-let veiculos = ['Ferrari','Fusca','Palio','Corolla']
+let veiculos = ['Ferrari','Fusca','Palio','Corolla','Lamborghini']
 
 let html = '<ul>'
 
@@ -128,5 +128,16 @@ for(let i in veiculos) {
 }
 
 html += '</ul>'
+
+document.querySelector(".demo").innerHTML = html
+
+// usando o while
+
+let c = 0
+
+while(c < 10){
+    html += "Número: "+c+"<br/>"
+    c += 1
+}
 
 document.querySelector(".demo").innerHTML = html
