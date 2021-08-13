@@ -108,6 +108,7 @@ switch (dia) {
 // FOR LOOP
 // FOR LOOP ARRAYS
 
+//FOR LOOP
 let texto = ''
 
 for(let i = 0; i < 50; i++) {
@@ -115,3 +116,14 @@ for(let i = 0; i < 50; i++) {
 }
 
 document.querySelector(".demo").innerHTML = texto
+
+//FOR arrays
+
+let carros = ['Ferrari','Fusca','Palio','Corolla']
+
+let html = '<ul>'
+
+
+html += '</ul>'
+
+document.querySelector(".demo").innerHTML = html
