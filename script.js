@@ -103,3 +103,13 @@ switch (dia) {
         diaNome = 'Domingo'
         break
 }
+
+//usando varios FORM
+// FOR LOOP
+// FOR LOOP ARRAYS
+
+let texto = ''
+
+for(){
+
+}
