@@ -74,3 +74,9 @@ function abrir(){
         menu.style.width = '200px'
     }
 }
+
+// usando switche
+
+let dia = 3
+
+
