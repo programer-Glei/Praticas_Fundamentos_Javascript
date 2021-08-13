@@ -119,10 +119,13 @@ document.querySelector(".demo").innerHTML = texto
 
 //FOR arrays
 
-let carros = ['Ferrari','Fusca','Palio','Corolla']
+let veiculos = ['Ferrari','Fusca','Palio','Corolla']
 
 let html = '<ul>'
 
+for(let i in veiculos) {
+    html += '<li>'+ veiculos[i] + '</li>'
+}
 
 html += '</ul>'
 
