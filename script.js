@@ -141,3 +141,9 @@ while(c < 10){
 }
 
 document.querySelector(".demo").innerHTML = html
+
+// METODOS DE MANIPULAÇÃO DE ARRAYS
+
+let lista = ['ovo','Trigo','Manteiga','Leite']
+
+let res = lista
