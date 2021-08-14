@@ -146,4 +146,7 @@ document.querySelector(".demo").innerHTML = html
 
 let lista = ['ovo','Trigo','Manteiga','Leite']
 
-let res = lista
+// transforma uma lista numa string separada por vírcula
+let res = lista.toString()
+
+console.log(res)
