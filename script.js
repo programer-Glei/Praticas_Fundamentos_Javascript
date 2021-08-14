@@ -174,3 +174,14 @@ let re = lista.concat(lista2)
 
 console.log(re)
 
+//metodo para mapear todos os itens do array
+let numeros = [2,3,4,5,6]
+let mult = []
+
+mult = numeros.map(function(item) {
+    return item * 2
+})
+
+console.log(mult)
+
+
