@@ -194,8 +194,10 @@ let n1 = re.find(function(item){
     return (item == "Fogo") ? true : false
 })
 
+//metodo para encontrar a posição dentro do array
 let n2 = re.findIndex(function(item){
     return (item == "Fogo") ? true : false
 })
 
 console.log(n1, "indice",n2)
+
