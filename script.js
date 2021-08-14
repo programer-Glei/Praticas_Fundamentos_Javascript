@@ -151,7 +151,8 @@ let res = lista.toString()
 
 console.log(res)
 
-// remove o primeiro item de uma lista se
+// remove o primeiro item de uma lista
 lista.shift()
 
-//
+// remove o ultimo item de uma lista
+lista.pop()
