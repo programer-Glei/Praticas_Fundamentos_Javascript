@@ -166,4 +166,11 @@ lista.push('Lucas')
 lista.splice(2,1)//define qual o indice do array e a quantidade
 console.log(lista)
 
-//metodo 
+//metodo para juntar varios arrays
+
+let lista2 = ['Forma','Forno','Fogo']
+
+let re = lista.concat(lista2)
+
+console.log(re)
+
