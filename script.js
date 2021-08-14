@@ -184,4 +184,18 @@ mult = numeros.map(function(item) {
 
 console.log(mult)
 
+//metodo para encontrar qualquer coisa num arrays
 
+let n = numeros.find(function(item){
+    return (item == 5) ? true : false
+})
+
+let n1 = re.find(function(item){
+    return (item == "Fogo") ? true : false
+})
+
+let n2 = re.findIndex(function(item){
+    return (item == "Fogo") ? true : false
+})
+
+console.log(n1, "indice",n2)
