@@ -156,3 +156,14 @@ lista.shift()
 
 // remove o ultimo item de uma lista
 lista.pop()
+
+// adiciona um item no final de uma lista
+lista.push()
+
+// melhor forma pra remover qualquer item de uma lista
+lista.push('Margarina')
+lista.push('Lucas')
+lista.splice(2,1)//define qual o indice do array e a quantidade
+console.log(lista)
+
+//metodo 
