@@ -150,3 +150,8 @@ let lista = ['ovo','Trigo','Manteiga','Leite']
 let res = lista.toString()
 
 console.log(res)
+
+// remove o primeiro item de uma lista se
+lista.shift()
+
+//
