@@ -215,5 +215,15 @@ resultado = d.getSeconds() //pega os segundos
 resultado = d.getMilliseconds() // pega os milisegundos
 resultado = d.getTime() // pega a quantidade de milisegundos desde 1970 até a data atual
 
+// função para atualizar horario
 
-console.log(resultado)
+function hora(){
+    let h = d.getHours()
+    let m = d.getMinutes()
+    let s = d.getSeconds()
+
+    resultado = h+":"+m+":"+s
+    document.querySelector(".horario").innerHTML = resultado
+}
+
+setInterval(hora,1000)
