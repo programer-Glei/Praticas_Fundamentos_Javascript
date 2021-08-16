@@ -212,6 +212,8 @@ resultado = d.getDate() // pega a data do dia
 resultado = d.getHours() // pega a hora
 resultado = d.getMinutes() // pega os minutos
 resultado = d.getSeconds() //pega os segundos
+resultado = d.getMilliseconds() // pega os milisegundos
+resultado = d.getTime() // pega a quantidade de milisegundos desde 1970 até a data atual
 
 
 console.log(resultado)
