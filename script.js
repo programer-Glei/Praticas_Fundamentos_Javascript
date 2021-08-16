@@ -205,3 +205,6 @@ console.log(n1, "indice",n2)
 
 let d = new Date()
 
+let resultado = d.getFullYear()
+
+console.log(resultado)
