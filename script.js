@@ -224,7 +224,7 @@ function comecar(){
 }
 
 function para(){
-    
+    clearInterval(timer)
 }
 
 function hora(){
