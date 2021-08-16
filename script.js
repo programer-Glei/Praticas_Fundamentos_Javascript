@@ -218,12 +218,13 @@ resultado = d.getTime() // pega a quantidade de milisegundos desde 1970 até a d
 // função para atualizar horario
 
 function hora(){
-    let h = d.getHours()
-    let m = d.getMinutes()
-    let s = d.getSeconds()
+    let data = new Date()
+    let h = data.getHours()
+    let m = data.getMinutes()
+    let s = data.getSeconds()
 
     resultado = h+":"+m+":"+s
     document.querySelector(".horario").innerHTML = resultado
 }
 
-setInterval(hora,1000)
+let timer = setInterval(hora, 1000)
