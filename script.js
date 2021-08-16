@@ -210,5 +210,8 @@ resultado = d.getMonth() //pega o mês
 resultado = d.getDay() // pega o dia
 resultado = d.getDate() // pega a data do dia
 resultado = d.getHours() // pega a hora
+resultado = d.getMinutes() // pega os minutos
+resultado = d.getSeconds() //pega os segundos
+
 
 console.log(resultado)
