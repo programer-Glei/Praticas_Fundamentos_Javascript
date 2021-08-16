@@ -205,6 +205,7 @@ console.log(n1, "indice",n2)
 
 let d = new Date()
 
-let resultado = d.getFullYear()
+let resultado = d.getFullYear() // pega o ano
+resultado = d.getMonth() //pega o mês
 
 console.log(resultado)
