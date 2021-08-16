@@ -207,5 +207,8 @@ let d = new Date()
 
 let resultado = d.getFullYear() // pega o ano
 resultado = d.getMonth() //pega o mês
+resultado = d.getDay() // pega o dia
+resultado = d.getDate() // pega a data do dia
+resultado = d.getHours() // pega a hora
 
 console.log(resultado)
