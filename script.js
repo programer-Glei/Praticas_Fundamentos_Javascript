@@ -201,3 +201,7 @@ let n2 = re.findIndex(function(item){
 
 console.log(n1, "indice",n2)
 
+//manipulando a classe new Date()
+
+let d = new Date()
+
