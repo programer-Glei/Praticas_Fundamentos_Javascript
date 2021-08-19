@@ -245,3 +245,4 @@ let somar = (x, y) => {
 
 let subtratir = (x, y) => x - y
 
+let letranoNome = nome => nome.length
