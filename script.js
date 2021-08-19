@@ -251,5 +251,8 @@ let letranoNome = nome => nome.length
 
 let info = {
     nome: 'Lucas',
-    sobrenome: 'Ferreira'
+    sobrenome: 'Ferreira',
+    idade: 36
 }
+
+console.log(info)
