@@ -237,3 +237,9 @@ function hora(){
     document.querySelector(".horario").innerHTML = resultado
 }
 
+//Ultilizando arrow functions
+
+let somar = (x, y) => {
+    return x + y
+}
+
