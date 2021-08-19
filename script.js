@@ -243,3 +243,5 @@ let somar = (x, y) => {
     return x + y
 }
 
+let subtratir = (x, y) => x - y
+
