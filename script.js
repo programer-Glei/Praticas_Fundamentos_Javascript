@@ -255,4 +255,11 @@ let info = {
     idade: 36
 }
 
+let novaInfo = {
+    ...info,
+    cidade: 'São paulo',
+    estado: 'Sao paulo',
+    pais: 'Brasil'
+}
+
 console.log(info)
