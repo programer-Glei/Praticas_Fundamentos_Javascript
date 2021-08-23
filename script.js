@@ -263,3 +263,11 @@ let novaInfo = {
 }
 
 console.log(info)
+
+// Ultilizando operador REST
+
+function adcionar(...nomes){
+    console.log(nomes)
+}
+
+adcionar("Lucas",5,"Geraldo","Carlos",8)
