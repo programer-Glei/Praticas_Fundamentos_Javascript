@@ -279,5 +279,14 @@ function loadPosts(){
 }
 
 function montarBlog(lista){
-    console.log(lista)
+    let body = ''
+
+    for(let i in lista){
+        body += `<h3>${lista[i].title}</h3>`
+        body += `<img src="${lista[i].url}">`
+        body += `<img src="${lista[i].thumbnailUrl}">`
+        body += `<hr/>`
+    }
+
+    document.querySelector("#corpo").innerHTML = body
 }
