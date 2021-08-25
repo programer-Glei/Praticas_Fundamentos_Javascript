@@ -272,10 +272,19 @@ function adcionar(...nomes){
 
 adcionar("Lucas",5,"Geraldo","Carlos",8)
 
+/*
 function loadPosts(){
     fetch("https://jsonplaceholder.typicode.com/photos").then(res => res.json()).then(estados =>{
         montarBlog(estados)
     })
+}*/
+
+//Ultilizando o async await
+
+async function loadPosts(){
+
+    
+
 }
 
 function montarBlog(lista){
