@@ -283,6 +283,7 @@ function loadPosts(){
 
 async function loadPosts(){
 
+    let req = await fetch("https://jsonplaceholder.typicode.com/photos") // espera o resultado da requisição
     
 
 }
